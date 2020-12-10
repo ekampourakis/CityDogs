@@ -191,11 +191,11 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-#intro .intro-content h2 {
+#intro .intro-content h3 {
   color: #0c2e8a;
-  margin-bottom: 30px;
-  font-size: 64px;
-  font-weight: 700;
+  margin: 30px;
+  font-size: 36px;
+  font-weight: 500;
 }
 
 #intro .intro-content h2 span {
