@@ -81,7 +81,7 @@
 					</li> -->
 					<li><a href="index.html#services">Προγράμματα</a>
 					<li><a href="qa.html">Συχνές Ερωτήσεις</a></li>
-					<li class="menu-active"><a href="photos.html">Φωτογραφίες</a></li>
+					<li class="menu-active"><a href="photos.php">Φωτογραφίες</a></li>
 					<li><a href="blog.html">Άρθρα</a></li>
 					<li><a href="index.html#contact">Επικοινωνία</a></li>
 				</ul>
@@ -109,9 +109,22 @@
 		<!-- End Breadcrumbs Section -->
 
 		<section class="inner-page pt-4" style="padding-left: 5%; padding-right: 5%;">
-			<div class="gallery" ID="ngy2p" data-nanogallery2='{
-				"itemsBaseURL": "https://lh3.googleusercontent.com/",
-				"thumbnailWidth": "200",
+
+			<?php 
+				function isMobile() {
+					return preg_match("/(android|webos|avantgo|iphone|ipad|ipod|blackberry|iemobile|bolt|boost|cricket|docomo|fone|hiptop|mini|opera mini|kitkat|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
+				}
+
+				$width = 250;
+				if (isMobile()) {
+					$width = "100";
+				} else {
+					$width = "250";
+				}
+
+				echo "<div class='gallery' ID='ngy2p' data-nanogallery2='{";
+				echo '"itemsBaseURL": "https://lh3.googleusercontent.com/",
+				"thumbnailWidth": "' . $width . '",
 				"thumbnailHeight": "auto",
 				"thumbnailBorderVertical": 0,
 				"thumbnailBorderHorizontal": 0,
@@ -130,8 +143,33 @@
 				"displayBreadcrumb": false,
 				"breadcrumbAutoHideTopLevel": false,
 				"breadcrumbOnlyCurrentLevel": false,
-				"thumbnailOpenImage": true
-			}'>
+				"thumbnailOpenImage": true';
+				echo "}'>";
+			?>
+				
+				<!-- <div class="gallery" ID="ngy2p" data-nanogallery2='{
+					"itemsBaseURL": "https://lh3.googleusercontent.com/",
+					"thumbnailWidth": "$width",
+					"thumbnailHeight": "auto",
+					"thumbnailBorderVertical": 0,
+					"thumbnailBorderHorizontal": 0,
+					"thumbnailDisplayTransition": "slideUp",
+					"thumbnailDisplayTransitionDuration": 300,
+					"thumbnailDisplayInterval": 20,
+					"thumbnailLabel": {
+						"position": "onBottom",
+						"display": false
+					},
+					"thumbnailHoverEffect2": "scale120|borderDarker",
+					"thumbnailAlignment": "center",
+					"thumbnailGutterWidth": 10,
+					"thumbnailGutterHeight": 10,
+					"gallerySorting": "random",
+					"displayBreadcrumb": false,
+					"breadcrumbAutoHideTopLevel": false,
+					"breadcrumbOnlyCurrentLevel": false,
+					"thumbnailOpenImage": true
+				}'> -->
 
 			<a href="KwChthR-50IF1mrwAjGH9zKnlc4rLDbzKAZ24dTjXB84ybRxJSZ2N5bw2CHL9_ujlRv-wDicEuuzCyKWVg6vjq9EF1ytbrh0xNUHTIQXpryGNtDzKVMbpLRkJ78SqaLLBw3sWhNf=w2400" data-ngthumb="KwChthR-50IF1mrwAjGH9zKnlc4rLDbzKAZ24dTjXB84ybRxJSZ2N5bw2CHL9_ujlRv-wDicEuuzCyKWVg6vjq9EF1ytbrh0xNUHTIQXpryGNtDzKVMbpLRkJ78SqaLLBw3sWhNf=w250"></a>
 			<a href="4Tk1qcXatAsDxPVl_F6_WkKY4IAPh1H0o8pErB7ign_gRDDyQQMj0Mnuf6gnHB7QDvW3wQshfSWCas4iRk0_TS3nlx9IcifpEd81d90WGOXZNUFAh2IkuRugwc8taJwdejfesS2F=w2400" data-ngthumb="4Tk1qcXatAsDxPVl_F6_WkKY4IAPh1H0o8pErB7ign_gRDDyQQMj0Mnuf6gnHB7QDvW3wQshfSWCas4iRk0_TS3nlx9IcifpEd81d90WGOXZNUFAh2IkuRugwc8taJwdejfesS2F=w250"></a>
