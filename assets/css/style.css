@@ -216,8 +216,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 767px) {
-  #intro .intro-content h3 {
-    font-size: 28px;
+  #intro .intro-content h2 {
+    font-size: 34px;
   }
 }
 
