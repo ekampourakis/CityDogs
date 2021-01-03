@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 1024px) {
   #header {
     padding: 30px 30px;
     height: 84px;
@@ -218,6 +218,11 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 767px) {
   #intro .intro-content h3 {
     font-size: 26px;
+  }
+}
+@media (max-width: 680) {
+  #intro .intro-content h3 {
+    font-size: 18px;
   }
 }
 
@@ -345,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1024px) {
   #nav-menu-container {
     display: none;
   }
@@ -419,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #555;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1024px) {
   #mobile-nav-toggle {
     display: inline;
   }

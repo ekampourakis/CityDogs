@@ -42,7 +42,7 @@
 <body>
 
 	<!-- ======= Top Bar ======= -->
-	<section id="topbar" class="d-none d-lg-block">
+	<section id="topbar" class="d-none d-xl-block">
 		<div class="container clearfix">
 			<div class="contact-info float-left">
 				<i class="far fa-envelope-open"></i> <a href="mailto:nikos@citydogs.gr">nikos@citydogs.gr</a>
