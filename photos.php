@@ -30,6 +30,8 @@
 	<link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
 	<link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link href="assets/vendor/font/css/all.css" rel="stylesheet">
+	<link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+	<link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 	
 	<!-- Template Main CSS File -->
 	<link href="assets/css/style.css" rel="stylesheet">
@@ -117,7 +119,7 @@
 
 				$width = 250;
 				if (isMobile()) {
-					$width = "100";
+					$width = "120";
 				} else {
 					$width = "250";
 				}
@@ -149,7 +151,7 @@
 				
 				<!-- <div class="gallery" ID="ngy2p" data-nanogallery2='{
 					"itemsBaseURL": "https://lh3.googleusercontent.com/",
-					"thumbnailWidth": "$width",
+					"thumbnailWidth": "250",
 					"thumbnailHeight": "auto",
 					"thumbnailBorderVertical": 0,
 					"thumbnailBorderHorizontal": 0,
@@ -207,13 +209,21 @@
 
 	<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-	<!-- Template Main JS File -->
-	<script src="assets/js/main.js"></script>	
-	
 	<!-- Vendor JS Files -->
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>	
+	<!-- <script src="assets/vendor/jquery/jquery.min.js"></script> -->
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+	<script src="assets/vendor/wow/wow.min.js"></script>
+	<script src="assets/vendor/venobox/venobox.min.js"></script>
+	<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+	<script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
 	<script src="assets/vendor/superfish/superfish.min.js"></script>
+	<script src="assets/vendor/hoverIntent/hoverIntent.js"></script>
+	<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+	<script src="assets/js/main.js"></script>	
 	
 </body>
 
