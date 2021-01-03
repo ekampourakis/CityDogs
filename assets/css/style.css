@@ -205,8 +205,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .intro-content h3 {
   color: #0c2e8a;
-  margin: 30px;
-  font-size: 36px;
+  margin: 10px;
+  font-size: 34px;
   font-weight: 500;
 }
 
@@ -215,14 +215,14 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: underline;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 700px) {
   #intro .intro-content h3 {
-    font-size: 26px;
+    font-size: 22px;
   }
 }
-@media (max-width: 680) {
+@media (max-width: 479) {
   #intro .intro-content h3 {
-    font-size: 18px;
+    font-size: 12px;
   }
 }
 
@@ -237,6 +237,22 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
+}
+
+@media (max-width: 700) {
+  #intro .intro-content .btn-get-started, #intro .intro-content .btn-projects {
+    font-size: 13px;
+    padding: 8px 24px;
+    margin: 8px;
+  }
+}
+
+@media (max-width: 479) {
+  #intro .intro-content .btn-get-started, #intro .intro-content .btn-projects {
+    font-size: 10px;
+    padding: 6px 16px;
+    margin: 6px;
+  }
 }
 
 #intro .intro-content .btn-get-started {
