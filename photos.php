@@ -64,7 +64,7 @@
 			<div id="logo" class="pull-left" style="margin: -30px;">
 				<!-- <h1><a href="index.html">City<span>Dogs</span></a></h1> -->
 				<!-- Uncomment below if you prefer to use an image logo -->
-				<a href="index.html"><img src="assets/img/logo-wide.jpg" alt=""></a>
+				<a href="index.html"><img src="assets/img/logo.png" alt=""></a>
 			</div>
 
 			<nav id="nav-menu-container">
