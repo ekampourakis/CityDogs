@@ -4,8 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://citydogs.gr/</loc>
@@ -28,19 +26,9 @@
   <priority>0.85</priority>
 </url>
 <url>
-  <loc>https://citydogs.gr/qa.html</loc>
-  <lastmod>2020-12-06T21:30:11+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://citydogs.gr/photos.php</loc>
+  <loc>https://citydogs.gr/photos.html</loc>
   <lastmod>2020-12-06T21:30:11+00:00</lastmod>
   <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://citydogs.gr/articles/fireworks.html</loc>
-  <lastmod>2020-12-06T21:30:11+00:00</lastmod>
-  <priority>0.95</priority>
 </url>
 
 </urlset>

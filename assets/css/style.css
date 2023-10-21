@@ -185,7 +185,7 @@ h6 {
     height: 100%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     #header {
         padding: 30px 30px;
         height: 84px;
@@ -402,7 +402,7 @@ h6 {
     margin: 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     #nav-menu-container {
         display: none;
     }
@@ -481,7 +481,7 @@ h6 {
     color: #555;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     #mobile-nav-toggle {
         display: inline;
     }
@@ -597,8 +597,8 @@ section {
 .section-header h2 {
     font-size: 32px;
     color: #0c2e8a;
-    text-transform: uppercase;
-    font-weight: 700;
+    /* text-transform: uppercase; */
+    font-weight: 500;
     position: relative;
     padding-bottom: 20px;
 }
@@ -900,16 +900,20 @@ section {
 #portfolio .portfolio-item {
     margin-bottom: 30px;
     overflow: hidden;
+    height: 20vh;
+    border-radius: 10px
 }
 
 #portfolio .portfolio-item img {
     position: relative;
     top: 0;
     transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
 }
 
 #portfolio .portfolio-item .portfolio-info {
-    opacity: 1;
     position: absolute;
     /* top: -5px; */
     left: 15px;
@@ -917,13 +921,13 @@ section {
     bottom: -50px;
     z-index: 3;
     transition: all ease-in-out 0.3s;
-    background: #e89e16;
+    background: #e89f1687;
     padding: 15px 20px;
     border-radius: 10px;
 }
 
 #portfolio .portfolio-item .portfolio-info h4 {
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     font-weight: 600;
     margin-right: 60px;
@@ -944,6 +948,7 @@ section {
     top: calc(25% - 18px);
     color: rgba(255, 255, 255, 0.6);
     transition: ease-in-out 0.3s;
+    border-radius: 10px
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover,
@@ -956,12 +961,13 @@ section {
 }
 
 #portfolio .portfolio-item:hover img {
-    top: -30px;
+    /* top: -50px; */
 }
 
 #portfolio .portfolio-item:hover .portfolio-info {
-    opacity: 1;
+    /* opacity: 1; */
     bottom: 0;
+    background: #e89f16;
 }
 
 
@@ -1159,7 +1165,7 @@ section {
 
 #call-to-action .cta-title {
     color: #fff;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -1461,4 +1467,8 @@ section {
 
 #footer .credits a {
     color: #0c2e8a;
+}
+
+.carousel-inner img {
+    border-radius: 20px;
 }
